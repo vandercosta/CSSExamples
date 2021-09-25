@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build-prod": "ng build --prod --base-href /CSSExamples/",
+    "build-prod": "ng build --configuration production --base-href /CSSExamples/",
     "ngh": "ngh --branch=gh-pages"
   },
   "private": true,

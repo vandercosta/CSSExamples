@@ -59,8 +59,7 @@ section::after {
   text-align: center;
 
   & svg {
-    width: 400px;
-    height: 400px;
+    width: 100%;
 
     & path {
       stroke-width: 5px;
