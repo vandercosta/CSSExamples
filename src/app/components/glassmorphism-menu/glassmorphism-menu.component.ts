@@ -11,16 +11,7 @@ export class GlassmorphismMenuComponent implements OnInit {
     console.log();
   }
 
-  teste(left: string): void {
+  select(left: string): void {
     this.left = left;
   }
-
-  // teste(e: Event): void {
-  //   // this.teste2(e.target);
-  //   console.log(e);
-  // }
-
-  // teste2(e: EventTarget | null): void {
-  //   console.log(e);
-  // }
 }
