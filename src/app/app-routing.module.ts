@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { ButtonGradientBorderComponent } from './components/button-gradient-border/button-gradient-border.component';
+import { CardComponent } from './components/card/card.component';
+import { GlassmorphismMenuComponent } from './components/glassmorphism-menu/glassmorphism-menu.component';
 import { LoaderComponent } from './components/loader/loader.component';
 import { NeonComponent } from './components/neon/neon.component';
 
@@ -10,6 +12,8 @@ const routes: Routes = [
   { path: 'neon', component: NeonComponent },
   { path: 'loader', component: LoaderComponent },
   { path: 'buttonGradientBorder', component: ButtonGradientBorderComponent },
+  { path: 'card', component: CardComponent },
+  { path: 'glassmorphismMenu', component: GlassmorphismMenuComponent },
   { path: '**', component: NeonComponent },
 ];
 
